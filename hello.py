@@ -28,20 +28,20 @@ while count < 5:
     print count
     count += 1  # Esto es lo mismo que escribir:  count = count + 1
 
- class MyClass:
-      variable = "blah"
-      def function(self):
-           print "Este mensaje está dentro de una clase."
+class MyClass:
+     variable = "blah"
+     def function(self):
+          print "Este mensaje está dentro de una clase."
 
- myobjectx = MyClass()
-
-
+myobjectx = MyClass()
 
 
- librotelefonico = {
-    "Juan" : 938477566,
-    "Jack" : 938377264,
-    "Jill" : 947662781
+
+
+librotelefonico = {
+   "Juan" : 938477566,
+   "Jack" : 938377264,
+   "Jill" : 947662781
 }
 
 print librotelefonico["juan"]
