@@ -16,16 +16,20 @@ class jugador:
         
     def girar_izquierda():
         #actualizar el sprite del jugador dependiento en que direccion esta
+        pass
 
     def girar_derecha():
         #actualizar el sprite del jugador dependiento en que direccion esta
+        pass
 
     def gritar(palabra):
         print(palabra + "!")
+        pass
 
     def empujar():
         # comprobar si hay una roca enfrente
         # roca.mover()
+        pass
 
 
 #creo un objeto jugador
