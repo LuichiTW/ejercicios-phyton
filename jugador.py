@@ -1,8 +1,11 @@
+import pygame
+
 class juego:
-    jugador
-    objetosColeccionables
-    objetosMobibles
-    objetosSolidos
+    def __init__(self):
+        jugador
+        objetosColeccionables
+        objetosMobibles
+        objetosSolidos
 
 class jugador:
     posicionx
