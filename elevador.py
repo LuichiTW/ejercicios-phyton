@@ -1,6 +1,9 @@
 
 pisos = 4
 posicionElevador = 0
+# 0 = detenido, 1 = subiendo, 2 = bajando
+estadoElevador = 0
+
 
 def subir():
     global posicionElevador
