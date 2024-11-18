@@ -1,5 +1,6 @@
 
 pisos = 4
+listaPisos = [1, 0, 0, 0, 0]
 posicionElevador = 0
 # 0 = detenido, 1 = subiendo, 2 = bajando
 estadoElevador = 0
@@ -34,3 +35,7 @@ def pedirElevador():
         print("Llegamos al andar", andar)
 
 #imprimir a quantidad de andares
+def imprimirPisos():
+    global listaPisos
+    for element in listaPisos:
+        print("Andar", element)
