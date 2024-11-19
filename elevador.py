@@ -39,3 +39,10 @@ def imprimirPisos():
     global listaPisos
     for element in listaPisos:
         print("Andar", element)
+
+#cambiar el estado del elevador
+def cambiarEstado():
+    global estadoElevador
+    print("Estado actual del elevador:", estadoElevador)
+    estadoElevador = int(input("Ingrese el estado del elevador: "))
+    print("Estado del elevador cambiado a:", estadoElevador)
