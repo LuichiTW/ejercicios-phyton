@@ -34,6 +34,11 @@ def pedirElevador():
                 bajar()
         print("Llegamos al andar", andar)
 
+#imprimir la posición del elevador
+def imprimirPosicion():
+    global posicionElevador
+    print("Posición del elevador:", posicionElevador)
+
 #imprimir a quantidad de andares
 def imprimirPisos():
     global listaPisos
