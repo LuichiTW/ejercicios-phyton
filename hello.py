@@ -27,16 +27,19 @@ if name == "John" or name == "Rick":
     print("Tu nombre es John o puede ser Rick.")
 
 
+#uso de bucle for
 primos = [2,3,5,7]
 for prime in primos:
     print(primos) 
 
 
+#uso de bucle while
 count = 0
 while count < 5:
     print(count) 
     count += 1  # Esto es lo mismo que escribir:  count = count + 1
 
+#uso de clase (object oriented programming)
 class MyClass:
      variable = "blah"
      def function(self):
@@ -47,6 +50,7 @@ myobjectx = MyClass()
 
 
 
+#uso de diccionarios
 librotelefonico = {
    "Juan" : 938477566,
    "Jack" : 938377264,
