@@ -57,8 +57,9 @@ librotelefonico = {
    "Jill" : 947662781
 }
 
-print librotelefonico["juan"]
+print (librotelefonico["juan"])
 
+#imprimir todos los numeros telefonicos
 for name, number in librotelefonico.iteritems():
     print("Número telefónico de %s esta en %d" % (name, number))
 
