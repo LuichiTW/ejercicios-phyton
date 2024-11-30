@@ -2,18 +2,20 @@ import pygame
 
 class juego:
     def __init__(self):
-        jugador
-        objetosColeccionables
-        objetosMobibles
-        objetosSolidos
+        self.jugador
+        self.objetosColeccionables
+        self.objetosMobibles
+        self.objetosSolidos
 
 class jugador:
-    posicionx
-    posiciony
-    direccion
-    def moverse_adelante():
+    def __init__(self) -> None:
+        self.posicionx
+        self.posiciony
+        self.direccion
+
+    def moverse_adelante(self):
         #comprobar si hay objeto enfrente
-        if dirreccion == sur and posiciony - 1:
+        if self.dirreccion == self.sur and self.posiciony - 1:
             pass
         #actualizar la posicion basada en la direccion en la que esta mirando
         
