@@ -7,6 +7,28 @@ class juego:
         self.objetosMobibles
         self.objetosSolidos
 
+
+class objeto:
+    def __init__(self) -> None:
+        self.posicionx
+        self.posiciony
+        self.tipo
+
+    def mover(self):
+        pass
+
+class roca(objeto):
+    def __init__(self) -> None:
+        super().__init__()
+        self.tipo = "roca"
+        self.peso
+
+    def mover(self):
+        #comprobar si hay un espacio vacio enfrente
+        #actualizar la posicion basada en la direccion en la que esta mirando
+        pass
+
+
 class jugador:
     def __init__(self) -> None:
         self.posicionx
