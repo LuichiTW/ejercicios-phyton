@@ -6,7 +6,14 @@ class juego:
         self.objetosColeccionables
         self.objetosMobibles
         self.objetosSolidos
+    
+    def iniciar(self):
+        #inicializar todas las variables
+        pass
 
+    def actualizar(self):
+        #actualizar todas las variables
+        pass
 
 class objeto:
     def __init__(self) -> None:
