@@ -65,6 +65,32 @@ class jugador:
         # roca.mover()
         pass
 
+class enemigo:
+    def __init__(self) -> None:
+        self.posicionx
+        self.posiciony
+        self.direccion
+
+    def moverse_adelante(self):
+        #comprobar si hay objeto enfrente
+        #actualizar la posicion basada en la direccion en la que esta mirando
+        pass
+
+    def girar_izquierda():
+        #actualizar el sprite del enemigo dependiento en que direccion esta
+        pass
+
+    def girar_derecha():
+        #actualizar el sprite del enemigo dependiento en que direccion esta
+        pass
+
+    def gritar(palabra):
+        print(palabra + "!")
+        pass
+
+    def empujar():
+        # comprobar si hay una roca enfrente
+        # roca
 
 #creo un objeto jugador
 jugadorConejo = jugador()
