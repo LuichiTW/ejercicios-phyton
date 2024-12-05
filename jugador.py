@@ -91,6 +91,7 @@ class enemigo:
     def empujar():
         # comprobar si hay una roca enfrente
         # roca
+        pass
 
 #creo un objeto jugador
 jugadorConejo = jugador()
