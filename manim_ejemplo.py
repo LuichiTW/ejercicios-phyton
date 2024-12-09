@@ -12,3 +12,6 @@ class CuadradoMovil(Scene):
         self.play(cuadrado.animate.shift(DOWN))
         self.play(cuadrado.animate.shift(RIGHT))
         self.play(FadeOut(cuadrado))
+    
+#para ejecutar el script se debe usar el siguiente comando en la terminal
+
