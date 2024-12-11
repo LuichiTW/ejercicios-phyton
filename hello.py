@@ -48,6 +48,13 @@ class MyClass:
 myobjectx = MyClass()
 
 
+#uso de clase con constructor
+class MyClass:
+    variable = "blah"
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
 
 
 #uso de diccionarios
