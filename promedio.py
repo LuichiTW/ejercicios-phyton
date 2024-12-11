@@ -5,3 +5,9 @@ def promedio(lista):
     for numero in lista:
         suma += numero
     return suma / len(lista)
+
+
+#llamada a la funcion
+lista = [1,2,3,4,5]
+print(promedio(lista))
+# Output: 3.0
